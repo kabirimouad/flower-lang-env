@@ -1,0 +1,48 @@
++0000001000     ;; initialize the symbol 000 to 0
++0000000000     
++0001001000     ;; initialize the symbol 001 to 1
++0000000001
++0002001000     ;; initialize the symbol 002 to 0 (counter)
++0000000000
++0003001000     ;; initialize the symbol 003 to 0 (sum)
++0000000000
++0004001000     ;; initialize the symbol 004 to 0 (min)
++0000000000
++0005001000     ;; initialize the symbol 005 to 0 (max)
++0000000000
++0006001000     ;; initialize the symbol 006 to 0 (number of elements)
++0000000000
++0007001000     ;; initialize the symbol 007 to 0 (temp)
++0000000000
++0008991000     ;; fill the remaining of the data section with 0s
++0000000000
++9999999999     ;; sepertor     
++8000000006     ;; read the number of elements
+-7000000100     ;; label 
++8000000007     ;; read the elements from the input section into temp 
+-6007008002     ;; write temp into array
++7002006100     ;; loop until the number of elements is reached 
++6008000004     ;; read the first element into min
++6008000005     ;; read the first element into max
++0000000002     ;; set the counter to 0
+-7000000111     ;; label
++6008002007     ;; read the next element into temp
++1003007003     ;; add temp to sum
++5007004200     ;; if temp >= min goto label 200 
++0007000004     ;; set min to temp
+-7000000200     ;; label
++5005007300     ;; if temp <= max goto label 300
++0007000005     ;; set max to temp
+-7000000300     ;; label
++7002006111     ;; loop until the number of elements is reached
+-8003000000     ;; write sum to the output
+-8004000000     ;; write min to the output
+-8005000000     ;; write max to the output
++9000000000     ;; stop
++9999999999     ;; sepertor
++0000000005     ;; number of elements
+-0000123456     ;; first element
++0000529786     ;; second element
+-0430323456     ;; third element
+-0006123456     ;; fourth element
++0004823352     ;; fifth element

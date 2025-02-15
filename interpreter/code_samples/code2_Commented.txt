@@ -1,0 +1,28 @@
++0000001000     ;; initialize symbol 001 to 0
++0000000000
++0111001000     ;; initialize symbol 111 to 7 (the number of elements)
++0000000007
++0222001000     ;; initialize symbol 222 to 0 (the max)
++0000000000
++0333001000     ;; initialize symbol 333 to 0 (temp)
++0000000000
++0444000000     ;; initialize symbol 444 to 1 (counter)
++0000000001
++9999999999     ;; sepertor
++8000000222     ;; read the first number into symbol 222
+-7000000100     ;; label 100
++8000000333     ;; read the next number into symbol 333
++5222333200     ;; if max >= temp goto 200
++0333000222     ;; else max = temp
+-7000000200     ;; label 200
++7444111100     ;; if counter < 7 goto 100 (loop)
+-8222000000     ;; print max
++9000000000     ;; stop
++9999999999     ;; separator    
+5               ;; input section
+9
+3
+1
+15
+3
+7

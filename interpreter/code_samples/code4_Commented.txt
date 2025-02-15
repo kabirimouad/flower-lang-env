@@ -1,0 +1,17 @@
++0000001000     ;; initialize symbol 000 to 0
++0000000000
++0111001000     ;; initialize symbol 111 to 0 (operand1)
++0000000000
++0222001000     ;; initialize symbol 222 to 0 (operand2)
++0000000000
++0333001000     ;; initialize symbol 333 to 0 (result)
++0000000000
++9999999999     ;; sepertor
++8000000111     ;; read from input section into symbol 111
++8000000222     ;; read from input section into symbol 222
+-2111222333     ;; divide symbol 111 by symbol 222 and store in symbol 333
+-8333000000     ;; write symbol 333 to output section
++9000000000     ;; stop
++9999999999     ;; separator
+10              ;; input section
+2
