@@ -1,0 +1,45 @@
+code
+
+$readonly SIZE 10
+$readonly SIZE 10
+number world[SIZE][SIZE]
+
+
+(number i number j) number function walk_right
+{
+
+    number j 
+    j = j + 1
+    number var1 = world[i][j]
+    number var2
+    var2 = 3
+    SIZE = SIZE - 1
+    if var1 -eq 0; then
+        var2 = world[i][j]
+        world[i][j] = var2
+        world[i][j] = 0
+    fi
+
+    return var2
+}
+
+
+start
+{
+    function walk_right(SIZE SIZE) ~ this function initializes the world as done in code1.txt ~
+    number robot = 1
+    world [0][0] = robot 
+    ~h_position and v_position represent the current location of the robot~
+    number h_position = 0
+    number v_position = 0
+
+    ~ These lines of code lead the robot to a position where it can pick a flower ~ 
+
+    for((number i = 0; i -lt 5 ; i = i + 1)) ; do 
+        function walk_up(h_position v_position) ~walks up by 1 square~
+    done
+    
+
+    function pick_flower(h_position v_position) ~checks if location has flower, picks flower and turns its position into grass~
+
+}stop

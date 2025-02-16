@@ -1,0 +1,48 @@
+code
+
+~the world will be a square~
+numbe size = 10
+number world[size][size]
+
+(number i number j) nothing function initialize_world
+{
+	number in = world[0][0]
+	number out = world[9][9]
+
+	for((i = 0; i -lt 10; i = i +1)); do
+	    for((j = 0; j -lt 10; i = j +1)); do
+	 	    world[i][j]  = 0
+	 	done 
+	done
+
+	for((i = 4; i -lt 7; i = i +1)); do
+		for((j = 4; j -lt 7; j = j +1)); do
+			if i -eq 5 ;then
+				if j -eq 5; then 
+			 		world[i][j]  = 2
+				fi
+			fi
+			world[i][j]  = 4
+		done
+	done
+	return i
+}
+
+
+
+start
+{
+    number in = world[0][0]
+	number out = world[9][9]
+    function initialize_world (in out) 
+    number i
+    number j
+    number k
+    ~ printing the content of the world ~
+    for((i = 9; 0 -le i ; i = i - 1)) ; do
+        for((j = 0; j -lt 10 ; j = j + 1)) ; do
+            k = world[i][j]
+            echo k
+        done
+    done
+}stop

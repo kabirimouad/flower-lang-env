@@ -1,0 +1,843 @@
+{
+    "name": "<program>",
+    "children": [
+        {
+            "name": "CODE"
+        },
+        {
+            "name": "<define>",
+            "children": [
+                {
+                    "name": "DOLLAREADONLY"
+                },
+                {
+                    "name": "UIDSTAT",
+                    "value": "size1"
+                },
+                {
+                    "name": "NUMSTAT",
+                    "value": "10"
+                }
+            ]
+        },
+        {
+            "name": "<define>",
+            "children": [
+                {
+                    "name": "DOLLAREADONLY"
+                },
+                {
+                    "name": "UIDSTAT",
+                    "value": "size2"
+                },
+                {
+                    "name": "NUMSTAT",
+                    "value": "50"
+                }
+            ]
+        },
+        {
+            "name": "<declaration>",
+            "children": [
+                {
+                    "name": "NUMBER"
+                },
+                {
+                    "name": "UIDSTAT",
+                    "value": "world"
+                },
+                {
+                    "name": "<array_index>",
+                    "children": [
+                        {
+                            "name": "UIDSTAT",
+                            "value": "size1"
+                        },
+                        {
+                            "name": "NUMSTAT",
+                            "value": "5"
+                        }
+                    ]
+                },
+                {
+                    "name": "ASG"
+                },
+                {
+                    "name": "NUMSTAT",
+                    "value": "5"
+                }
+            ]
+        },
+        {
+            "name": "<declaration>",
+            "children": [
+                {
+                    "name": "NUMBER"
+                },
+                {
+                    "name": "UIDSTAT",
+                    "value": "test"
+                },
+                {
+                    "name": "<array_index>",
+                    "children": [
+                        {
+                            "name": "UIDSTAT",
+                            "value": "size2"
+                        },
+                        {
+                            "name": "NUMSTAT",
+                            "value": "5"
+                        }
+                    ]
+                },
+                {
+                    "name": "ASG"
+                },
+                {
+                    "name": "NUMSTAT",
+                    "value": "5"
+                }
+            ]
+        },
+        {
+            "name": "<declaration>",
+            "children": [
+                {
+                    "name": "NUMBER"
+                },
+                {
+                    "name": "UIDSTAT",
+                    "value": "test2"
+                }
+            ]
+        },
+        {
+            "name": "<function_declaration>",
+            "children": [
+                {
+                    "name": "<declaration>",
+                    "children": [
+                        {
+                            "name": "NUMBER"
+                        },
+                        {
+                            "name": "UIDSTAT",
+                            "value": "r"
+                        }
+                    ]
+                },
+                {
+                    "name": "<declaration>",
+                    "children": [
+                        {
+                            "name": "NUMBER"
+                        },
+                        {
+                            "name": "UIDSTAT",
+                            "value": "j"
+                        }
+                    ]
+                },
+                {
+                    "name": "<declaration>",
+                    "children": [
+                        {
+                            "name": "NUMBER"
+                        },
+                        {
+                            "name": "UIDSTAT",
+                            "value": "k"
+                        }
+                    ]
+                },
+                {
+                    "name": "NUMBER"
+                },
+                {
+                    "name": "FUNCTION"
+                },
+                {
+                    "name": "UIDSTAT",
+                    "value": "walk_right"
+                },
+                {
+                    "name": "<code_lines>",
+                    "children": [
+                        {
+                            "name": "<declaration>",
+                            "children": [
+                                {
+                                    "name": "NUMBER"
+                                },
+                                {
+                                    "name": "UIDSTAT",
+                                    "value": "h"
+                                },
+                                {
+                                    "name": "ASG"
+                                },
+                                {
+                                    "name": "NUMSTAT",
+                                    "value": "5"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "<code_lines>",
+                    "children": [
+                        {
+                            "name": "<ops>",
+                            "children": [
+                                {
+                                    "name": "UIDSTAT",
+                                    "value": "h"
+                                },
+                                {
+                                    "name": "<assignment>",
+                                    "children": [
+                                        {
+                                            "name": "ASG"
+                                        },
+                                        {
+                                            "name": "<math_expression>",
+                                            "children": [
+                                                {
+                                                    "name": "UIDSTAT",
+                                                    "value": "h"
+                                                },
+                                                {
+                                                    "name": "ADD"
+                                                },
+                                                {
+                                                    "name": "UIDSTAT",
+                                                    "value": "k"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "<code_lines>",
+                    "children": [
+                        {
+                            "name": "<loop>",
+                            "children": [
+                                {
+                                    "name": "FOR"
+                                },
+                                {
+                                    "name": "<declaration>",
+                                    "children": [
+                                        {
+                                            "name": "NUMBER"
+                                        },
+                                        {
+                                            "name": "UIDSTAT",
+                                            "value": "i"
+                                        },
+                                        {
+                                            "name": "ASG"
+                                        },
+                                        {
+                                            "name": "NUMSTAT",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "<comparison>",
+                                    "children": [
+                                        {
+                                            "name": "UIDSTAT",
+                                            "value": "i"
+                                        },
+                                        {
+                                            "name": "LESS_THAN"
+                                        },
+                                        {
+                                            "name": "NUMSTAT",
+                                            "value": "10"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "<inc_dec>",
+                                    "children": [
+                                        {
+                                            "name": "UIDSTAT",
+                                            "value": "i"
+                                        },
+                                        {
+                                            "name": "ASG"
+                                        },
+                                        {
+                                            "name": "UIDSTAT",
+                                            "value": "i"
+                                        },
+                                        {
+                                            "name": "ADD"
+                                        },
+                                        {
+                                            "name": "NUMSTAT",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "<code_lines>",
+                                    "children": [
+                                        {
+                                            "name": "<ops>",
+                                            "children": [
+                                                {
+                                                    "name": "<print>",
+                                                    "children": [
+                                                        {
+                                                            "name": "ECHO"
+                                                        },
+                                                        {
+                                                            "name": "UIDSTAT",
+                                                            "value": "i"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "DONE"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "<code_lines>",
+                    "children": [
+                        {
+                            "name": "<declaration>",
+                            "children": [
+                                {
+                                    "name": "NUMBER"
+                                },
+                                {
+                                    "name": "UIDSTAT",
+                                    "value": "test2"
+                                },
+                                {
+                                    "name": "ASG"
+                                },
+                                {
+                                    "name": "NUMSTAT",
+                                    "value": "100"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "<code_lines>",
+                    "children": [
+                        {
+                            "name": "<declaration>",
+                            "children": [
+                                {
+                                    "name": "NUMBER"
+                                },
+                                {
+                                    "name": "UIDSTAT",
+                                    "value": "b"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "<code_lines>",
+                    "children": [
+                        {
+                            "name": "<ops>",
+                            "children": [
+                                {
+                                    "name": "UIDSTAT",
+                                    "value": "b"
+                                },
+                                {
+                                    "name": "<array_index>",
+                                    "children": [
+                                        {
+                                            "name": "UIDSTAT",
+                                            "value": "h"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "<assignment>",
+                                    "children": [
+                                        {
+                                            "name": "ASG"
+                                        },
+                                        {
+                                            "name": "<math_expression>",
+                                            "children": [
+                                                {
+                                                    "name": "UIDSTAT",
+                                                    "value": "j"
+                                                },
+                                                {
+                                                    "name": "<array_index>",
+                                                    "children": [
+                                                        {
+                                                            "name": "NUMSTAT",
+                                                            "value": "5"
+                                                        },
+                                                        {
+                                                            "name": "UIDSTAT",
+                                                            "value": "k"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "ADD"
+                                                },
+                                                {
+                                                    "name": "NUMSTAT",
+                                                    "value": "5"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "<code_lines>",
+                    "children": [
+                        {
+                            "name": "<ops>",
+                            "children": [
+                                {
+                                    "name": "UIDSTAT",
+                                    "value": "b"
+                                },
+                                {
+                                    "name": "<array_index>",
+                                    "children": [
+                                        {
+                                            "name": "NUMSTAT",
+                                            "value": "5"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "<assignment>",
+                                    "children": [
+                                        {
+                                            "name": "ASG"
+                                        },
+                                        {
+                                            "name": "<math_expression>",
+                                            "children": [
+                                                {
+                                                    "name": "NUMSTAT",
+                                                    "value": "4"
+                                                },
+                                                {
+                                                    "name": "ADD"
+                                                },
+                                                {
+                                                    "name": "NUMSTAT",
+                                                    "value": "1"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "<code_lines>",
+                    "children": [
+                        {
+                            "name": "<ops>",
+                            "children": [
+                                {
+                                    "name": "UIDSTAT",
+                                    "value": "b"
+                                },
+                                {
+                                    "name": "<assignment>",
+                                    "children": [
+                                        {
+                                            "name": "ASG"
+                                        },
+                                        {
+                                            "name": "<math_expression>",
+                                            "children": [
+                                                {
+                                                    "name": "UIDSTAT",
+                                                    "value": "k"
+                                                },
+                                                {
+                                                    "name": "<array_index>",
+                                                    "children": [
+                                                        {
+                                                            "name": "NUMSTAT",
+                                                            "value": "3"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "ADD"
+                                                },
+                                                {
+                                                    "name": "NUMSTAT",
+                                                    "value": "3"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "<code_lines>",
+                    "children": [
+                        {
+                            "name": "<ops>",
+                            "children": [
+                                {
+                                    "name": "UIDSTAT",
+                                    "value": "b"
+                                },
+                                {
+                                    "name": "<assignment>",
+                                    "children": [
+                                        {
+                                            "name": "ASG"
+                                        },
+                                        {
+                                            "name": "<math_expression>",
+                                            "children": [
+                                                {
+                                                    "name": "NUMSTAT",
+                                                    "value": "5"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "<code_lines>",
+                    "children": [
+                        {
+                            "name": "<selection>",
+                            "children": [
+                                {
+                                    "name": "IF"
+                                },
+                                {
+                                    "name": "<comparison>",
+                                    "children": [
+                                        {
+                                            "name": "UIDSTAT",
+                                            "value": "b"
+                                        },
+                                        {
+                                            "name": "EQUAL"
+                                        },
+                                        {
+                                            "name": "UIDSTAT",
+                                            "value": "b"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "<code_lines>",
+                                    "children": [
+                                        {
+                                            "name": "<ops>",
+                                            "children": [
+                                                {
+                                                    "name": "<print>",
+                                                    "children": [
+                                                        {
+                                                            "name": "ECHO"
+                                                        },
+                                                        {
+                                                            "name": "UIDSTAT",
+                                                            "value": "j"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "<code_lines>",
+                                    "children": [
+                                        {
+                                            "name": "<selection>",
+                                            "children": [
+                                                {
+                                                    "name": "IF"
+                                                },
+                                                {
+                                                    "name": "<comparison>",
+                                                    "children": [
+                                                        {
+                                                            "name": "UIDSTAT",
+                                                            "value": "k"
+                                                        },
+                                                        {
+                                                            "name": "EQUAL"
+                                                        },
+                                                        {
+                                                            "name": "UIDSTAT",
+                                                            "value": "b"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "<code_lines>",
+                                                    "children": [
+                                                        {
+                                                            "name": "<ops>",
+                                                            "children": [
+                                                                {
+                                                                    "name": "<print>",
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "ECHO"
+                                                                        },
+                                                                        {
+                                                                            "name": "UIDSTAT",
+                                                                            "value": "j"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "FI"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "FI"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "RETURN"
+                },
+                {
+                    "name": "UIDSTAT",
+                    "value": "k"
+                }
+            ]
+        },
+        {
+            "name": "<main_node>",
+            "children": [
+                {
+                    "name": "START"
+                },
+                {
+                    "name": "<code_lines>",
+                    "children": [
+                        {
+                            "name": "<function_call>",
+                            "children": [
+                                {
+                                    "name": "FUNCTION"
+                                },
+                                {
+                                    "name": "UIDSTAT",
+                                    "value": "walk_right"
+                                },
+                                {
+                                    "name": "UIDSTAT",
+                                    "value": "size1"
+                                },
+                                {
+                                    "name": "UIDSTAT",
+                                    "value": "test2"
+                                },
+                                {
+                                    "name": "UIDSTAT",
+                                    "value": "test"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "<code_lines>",
+                    "children": [
+                        {
+                            "name": "<declaration>",
+                            "children": [
+                                {
+                                    "name": "NUMBER"
+                                },
+                                {
+                                    "name": "UIDSTAT",
+                                    "value": "var"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "<code_lines>",
+                    "children": [
+                        {
+                            "name": "<loop>",
+                            "children": [
+                                {
+                                    "name": "FOR"
+                                },
+                                {
+                                    "name": "<declaration>",
+                                    "children": [
+                                        {
+                                            "name": "NUMBER"
+                                        },
+                                        {
+                                            "name": "UIDSTAT",
+                                            "value": "i"
+                                        },
+                                        {
+                                            "name": "ASG"
+                                        },
+                                        {
+                                            "name": "NUMSTAT",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "<comparison>",
+                                    "children": [
+                                        {
+                                            "name": "UIDSTAT",
+                                            "value": "i"
+                                        },
+                                        {
+                                            "name": "LESS_THAN"
+                                        },
+                                        {
+                                            "name": "NUMSTAT",
+                                            "value": "10"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "<inc_dec>",
+                                    "children": [
+                                        {
+                                            "name": "UIDSTAT",
+                                            "value": "i"
+                                        },
+                                        {
+                                            "name": "ASG"
+                                        },
+                                        {
+                                            "name": "UIDSTAT",
+                                            "value": "i"
+                                        },
+                                        {
+                                            "name": "ADD"
+                                        },
+                                        {
+                                            "name": "NUMSTAT",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "<code_lines>",
+                                    "children": [
+                                        {
+                                            "name": "<ops>",
+                                            "children": [
+                                                {
+                                                    "name": "<print>",
+                                                    "children": [
+                                                        {
+                                                            "name": "ECHO"
+                                                        },
+                                                        {
+                                                            "name": "UIDSTAT",
+                                                            "value": "i"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "DONE"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "<code_lines>",
+                    "children": [
+                        {
+                            "name": "<declaration>",
+                            "children": [
+                                {
+                                    "name": "NUMBER"
+                                },
+                                {
+                                    "name": "UIDSTAT",
+                                    "value": "hello"
+                                },
+                                {
+                                    "name": "ASG"
+                                },
+                                {
+                                    "name": "NUMSTAT",
+                                    "value": "5"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "STOP"
+        }
+    ]
+}

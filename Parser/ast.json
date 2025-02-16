@@ -1,0 +1,684 @@
+{
+    "name": "CODE",
+    "children": [
+        {
+            "name": "DOLLAREADONLY",
+            "children": [
+                {
+                    "name": "UIDSTAT",
+                    "value": "size1"
+                },
+                {
+                    "name": "NUMSTAT",
+                    "value": "10"
+                }
+            ]
+        },
+        {
+            "name": "DOLLAREADONLY",
+            "children": [
+                {
+                    "name": "UIDSTAT",
+                    "value": "size2"
+                },
+                {
+                    "name": "NUMSTAT",
+                    "value": "50"
+                }
+            ]
+        },
+        {
+            "name": "NUMBER",
+            "children": [
+                {
+                    "name": "UIDSTAT",
+                    "value": "world"
+                },
+                {
+                    "name": "ARRAY",
+                    "children": [
+                        {
+                            "name": "UIDSTAT",
+                            "value": "size1"
+                        },
+                        {
+                            "name": "NUMSTAT",
+                            "value": "5"
+                        }
+                    ]
+                },
+                {
+                    "name": "ASG"
+                },
+                {
+                    "name": "NUMSTAT",
+                    "value": "5"
+                }
+            ]
+        },
+        {
+            "name": "NUMBER",
+            "children": [
+                {
+                    "name": "UIDSTAT",
+                    "value": "test"
+                },
+                {
+                    "name": "ARRAY",
+                    "children": [
+                        {
+                            "name": "UIDSTAT",
+                            "value": "size2"
+                        },
+                        {
+                            "name": "NUMSTAT",
+                            "value": "5"
+                        }
+                    ]
+                },
+                {
+                    "name": "ASG"
+                },
+                {
+                    "name": "NUMSTAT",
+                    "value": "5"
+                }
+            ]
+        },
+        {
+            "name": "NUMBER",
+            "children": [
+                {
+                    "name": "UIDSTAT",
+                    "value": "test2"
+                }
+            ]
+        },
+        {
+            "name": "FUNCTION",
+            "children": [
+                {
+                    "name": "NUMBER",
+                    "children": [
+                        {
+                            "name": "UIDSTAT",
+                            "value": "r"
+                        }
+                    ]
+                },
+                {
+                    "name": "NUMBER",
+                    "children": [
+                        {
+                            "name": "UIDSTAT",
+                            "value": "j"
+                        }
+                    ]
+                },
+                {
+                    "name": "NUMBER",
+                    "children": [
+                        {
+                            "name": "UIDSTAT",
+                            "value": "k"
+                        }
+                    ]
+                },
+                {
+                    "name": "NUMBER"
+                },
+                {
+                    "name": "UIDSTAT",
+                    "value": "walk_right"
+                },
+                {
+                    "name": "LINE",
+                    "children": [
+                        {
+                            "name": "NUMBER",
+                            "children": [
+                                {
+                                    "name": "UIDSTAT",
+                                    "value": "h"
+                                },
+                                {
+                                    "name": "ASG"
+                                },
+                                {
+                                    "name": "NUMSTAT",
+                                    "value": "5"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "LINE",
+                    "children": [
+                        {
+                            "name": "UIDSTAT",
+                            "value": "h"
+                        },
+                        {
+                            "name": "ASG",
+                            "children": [
+                                {
+                                    "name": "MATH",
+                                    "children": [
+                                        {
+                                            "name": "UIDSTAT",
+                                            "value": "h"
+                                        },
+                                        {
+                                            "name": "ADD"
+                                        },
+                                        {
+                                            "name": "UIDSTAT",
+                                            "value": "k"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "LINE",
+                    "children": [
+                        {
+                            "name": "FOR",
+                            "children": [
+                                {
+                                    "name": "NUMBER",
+                                    "children": [
+                                        {
+                                            "name": "UIDSTAT",
+                                            "value": "i"
+                                        },
+                                        {
+                                            "name": "ASG"
+                                        },
+                                        {
+                                            "name": "NUMSTAT",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "LESS_THAN",
+                                    "children": [
+                                        {
+                                            "name": "UIDSTAT",
+                                            "value": "i"
+                                        },
+                                        {
+                                            "name": "NUMSTAT",
+                                            "value": "10"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "ASG",
+                                    "children": [
+                                        {
+                                            "name": "UIDSTAT",
+                                            "value": "i"
+                                        },
+                                        {
+                                            "name": "UIDSTAT",
+                                            "value": "i"
+                                        },
+                                        {
+                                            "name": "ADD"
+                                        },
+                                        {
+                                            "name": "NUMSTAT",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "LINE",
+                                    "children": [
+                                        {
+                                            "name": "ECHO",
+                                            "children": [
+                                                {
+                                                    "name": "UIDSTAT",
+                                                    "value": "i"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "DONE"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "LINE",
+                    "children": [
+                        {
+                            "name": "NUMBER",
+                            "children": [
+                                {
+                                    "name": "UIDSTAT",
+                                    "value": "test2"
+                                },
+                                {
+                                    "name": "ASG"
+                                },
+                                {
+                                    "name": "NUMSTAT",
+                                    "value": "100"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "LINE",
+                    "children": [
+                        {
+                            "name": "NUMBER",
+                            "children": [
+                                {
+                                    "name": "UIDSTAT",
+                                    "value": "b"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "LINE",
+                    "children": [
+                        {
+                            "name": "UIDSTAT",
+                            "value": "b"
+                        },
+                        {
+                            "name": "ARRAY",
+                            "children": [
+                                {
+                                    "name": "UIDSTAT",
+                                    "value": "h"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "ASG",
+                            "children": [
+                                {
+                                    "name": "MATH",
+                                    "children": [
+                                        {
+                                            "name": "UIDSTAT",
+                                            "value": "j"
+                                        },
+                                        {
+                                            "name": "ARRAY",
+                                            "children": [
+                                                {
+                                                    "name": "NUMSTAT",
+                                                    "value": "5"
+                                                },
+                                                {
+                                                    "name": "UIDSTAT",
+                                                    "value": "k"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "ADD"
+                                        },
+                                        {
+                                            "name": "NUMSTAT",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "LINE",
+                    "children": [
+                        {
+                            "name": "UIDSTAT",
+                            "value": "b"
+                        },
+                        {
+                            "name": "ARRAY",
+                            "children": [
+                                {
+                                    "name": "NUMSTAT",
+                                    "value": "5"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "ASG",
+                            "children": [
+                                {
+                                    "name": "MATH",
+                                    "children": [
+                                        {
+                                            "name": "NUMSTAT",
+                                            "value": "4"
+                                        },
+                                        {
+                                            "name": "ADD"
+                                        },
+                                        {
+                                            "name": "NUMSTAT",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "LINE",
+                    "children": [
+                        {
+                            "name": "UIDSTAT",
+                            "value": "b"
+                        },
+                        {
+                            "name": "ASG",
+                            "children": [
+                                {
+                                    "name": "MATH",
+                                    "children": [
+                                        {
+                                            "name": "UIDSTAT",
+                                            "value": "k"
+                                        },
+                                        {
+                                            "name": "ARRAY",
+                                            "children": [
+                                                {
+                                                    "name": "NUMSTAT",
+                                                    "value": "3"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "ADD"
+                                        },
+                                        {
+                                            "name": "NUMSTAT",
+                                            "value": "3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "LINE",
+                    "children": [
+                        {
+                            "name": "UIDSTAT",
+                            "value": "b"
+                        },
+                        {
+                            "name": "ASG",
+                            "children": [
+                                {
+                                    "name": "MATH",
+                                    "children": [
+                                        {
+                                            "name": "NUMSTAT",
+                                            "value": "5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "LINE",
+                    "children": [
+                        {
+                            "name": "IF",
+                            "children": [
+                                {
+                                    "name": "EQUAL",
+                                    "children": [
+                                        {
+                                            "name": "UIDSTAT",
+                                            "value": "b"
+                                        },
+                                        {
+                                            "name": "UIDSTAT",
+                                            "value": "b"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "LINE",
+                                    "children": [
+                                        {
+                                            "name": "ECHO",
+                                            "children": [
+                                                {
+                                                    "name": "UIDSTAT",
+                                                    "value": "j"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "LINE",
+                                    "children": [
+                                        {
+                                            "name": "IF",
+                                            "children": [
+                                                {
+                                                    "name": "EQUAL",
+                                                    "children": [
+                                                        {
+                                                            "name": "UIDSTAT",
+                                                            "value": "k"
+                                                        },
+                                                        {
+                                                            "name": "UIDSTAT",
+                                                            "value": "b"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "LINE",
+                                                    "children": [
+                                                        {
+                                                            "name": "ECHO",
+                                                            "children": [
+                                                                {
+                                                                    "name": "UIDSTAT",
+                                                                    "value": "j"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "FI"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "FI"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "RETURN"
+                },
+                {
+                    "name": "UIDSTAT",
+                    "value": "k"
+                }
+            ]
+        },
+        {
+            "name": "START",
+            "children": [
+                {
+                    "name": "LINE",
+                    "children": [
+                        {
+                            "name": "FUNCTION",
+                            "children": [
+                                {
+                                    "name": "UIDSTAT",
+                                    "value": "walk_right"
+                                },
+                                {
+                                    "name": "UIDSTAT",
+                                    "value": "size1"
+                                },
+                                {
+                                    "name": "UIDSTAT",
+                                    "value": "test2"
+                                },
+                                {
+                                    "name": "UIDSTAT",
+                                    "value": "test"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "LINE",
+                    "children": [
+                        {
+                            "name": "NUMBER",
+                            "children": [
+                                {
+                                    "name": "UIDSTAT",
+                                    "value": "var"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "LINE",
+                    "children": [
+                        {
+                            "name": "FOR",
+                            "children": [
+                                {
+                                    "name": "NUMBER",
+                                    "children": [
+                                        {
+                                            "name": "UIDSTAT",
+                                            "value": "i"
+                                        },
+                                        {
+                                            "name": "ASG"
+                                        },
+                                        {
+                                            "name": "NUMSTAT",
+                                            "value": "0"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "LESS_THAN",
+                                    "children": [
+                                        {
+                                            "name": "UIDSTAT",
+                                            "value": "i"
+                                        },
+                                        {
+                                            "name": "NUMSTAT",
+                                            "value": "10"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "ASG",
+                                    "children": [
+                                        {
+                                            "name": "UIDSTAT",
+                                            "value": "i"
+                                        },
+                                        {
+                                            "name": "UIDSTAT",
+                                            "value": "i"
+                                        },
+                                        {
+                                            "name": "ADD"
+                                        },
+                                        {
+                                            "name": "NUMSTAT",
+                                            "value": "1"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "LINE",
+                                    "children": [
+                                        {
+                                            "name": "ECHO",
+                                            "children": [
+                                                {
+                                                    "name": "UIDSTAT",
+                                                    "value": "i"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "DONE"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "LINE",
+                    "children": [
+                        {
+                            "name": "NUMBER",
+                            "children": [
+                                {
+                                    "name": "UIDSTAT",
+                                    "value": "hello"
+                                },
+                                {
+                                    "name": "ASG"
+                                },
+                                {
+                                    "name": "NUMSTAT",
+                                    "value": "5"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "STOP"
+        }
+    ]
+}

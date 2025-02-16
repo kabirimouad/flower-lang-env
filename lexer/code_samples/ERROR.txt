@@ -1,0 +1,19 @@
+code
+
+start
+{ 
+	# this is a comment 
+	number i 
+	number j
+	number in = world[0][0]
+	number out = world[9][9]
+
+	for((i = 0; i -lt 10; i = i +1)); do
+	    for((j = 0; j -lt 10; i = j + 1)); do
+	 	    world[i][j]  = 0
+	 	done 
+	done
+
+
+
+}stop

@@ -1,0 +1,36 @@
+################ SYNTACTIC DESCRIPTION using EBNF ###################
+
+<program>               ::= CODE {<define> | <declaration> | <function_declaration> } <main_function> STOP
+
+<define>                ::= DOLLAREADONLY UIDSTAT NUMSTAT
+
+<declaration>	        ::= NUMBER UIDSTAT [<array_index>] [ASG (NUMSTAT | UIDSTAT [<array_index>] ]
+
+<array_index>	        ::= LBRACKET (NUMSTAT|UIDSTAT) RBRACKET [LBRACKET (NUMSTAT|UIDSTAT) RBRACKET]
+
+<function_declaration>	::= LPAREN <declaration>{<declaration>} RPAREN NUMBER FUNCTION UIDSTAT LBRACE <code_lines>{<code_lines>} RETURN [(UIDSTAT | NUMSTAT)] BRACE
+
+<code_lines>	        ::= (<ops> | <selection> | <loop> | <function_call> | <declaration>)  
+
+<ops>	                ::= <scan> | <print> | UIDSTAT[<array_index>]<assignment>
+
+<scan>	                ::= READ UIDSTAT
+
+<print>	                ::= ECHO UIDSTAT
+
+<assignment>	        ::= ASG (<function_call> | <math_expression>)
+
+<selection>	            ::= IF <comparison> SEMI THEN <code_lines>{<code_lines>} {ELIF <comaprison> SEMI THEN <code_lines>{<code_lines>} }  [ELSE <code_lines>{<code_lines>}] FI
+
+<comparison>            ::=	(NUMSTAT | UIDSTAT) [  (EQUAL | NOT_EQUAL | LESS_THAN | LESS_EQUAL | AND | OR)  (NUMSTAT | UIDSTAT)] ]
+
+<loop>	                ::= FOR LPAREN LPAREN <declaration> SEMI <comparison> SEMI <inc_dec> RPAREN RPAREN SEMI DO <code_lines>{<code_lines>} DONE
+
+<inc_dec>	            ::= UIDSTAT ASG UIDSTAT (ADD | SUB) NUMSTAT
+
+<function_call>	        ::= FUNCTION UIDSTAT LPAREN {UIDSTAT} RPAREN
+
+<math_expression>	    ::= (NUMSTAT | UIDSTAT[<array_index>] ) [(ADD | SUB | MUL | DIV ) (NUMSTAT | UIDSTAT[<array_index>])]
+
+<main_function>	        ::= START LBRACE <code_lines> RBRACE
+	

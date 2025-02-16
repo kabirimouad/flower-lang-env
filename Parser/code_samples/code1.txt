@@ -1,0 +1,15 @@
+code
+
+
+$readonly SIZE 10
+number world[5][5] = 5
+
+
+start
+{ 
+	number a
+	read a
+	number b = a
+	
+}
+stop

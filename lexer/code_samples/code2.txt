@@ -1,0 +1,44 @@
+code
+
+$readonly SIZE 10
+
+number world[SIZE][SIZE]
+
+~This is the function of code1.txt that puts a flower in the middle of the 10x10 world with flowers beds around it~
+
+(number i number j) nothing function initialize_world
+{
+	number in = world[0][0]
+	number out = world[9][9]
+
+	for((i = 0; i -lt 10; i = i +1)); do
+	    for((j = 0; j -lt 10; i = j +1)); do
+	 	    world[i][j]  = 0
+	 	done 
+	done
+
+	for((i = 4; i -lt 7; i = i +1)); do
+		for((j = 4; j -lt 7; j = j +1)); do
+			if i -eq 5 ;then
+				if j -eq 5; then 
+			 		world[i][j]  = 2
+				fi
+			fi
+			world[i][j]  = 4
+		done
+	done
+	return i
+}
+
+
+
+start
+{
+    world [0][0] = robot 
+    number i = 0
+    number j = 0
+    function initialize_world (i j) 
+
+    
+
+}stop

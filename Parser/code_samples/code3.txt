@@ -1,0 +1,47 @@
+code
+
+$readonly size1 10
+$readonly size2 50
+
+
+number world[size1][5] = 5
+number test[size2][5] = 5
+number test2
+(number r number j number k ) number function walk_right {
+    number h = 5
+    h = h + k 
+
+    for ((number i = 0; i -lt 10; i = i + 1)); do 
+        echo i
+    done
+    number test2 = 100
+    
+    number b 
+    b[h] = j[5][k] + 5
+    b[5] = 4 + 1
+    b = k[3] + 3
+    b = 5
+
+    if b -eq b; then
+        echo j
+        if k -eq b; then
+            echo j
+        fi
+    fi
+    
+    return k
+}
+
+start
+{
+    function walk_right(size1 test2 test)
+    number var 
+    for ((number i = 0; i -lt 10; i = i + 1)); do 
+        echo i
+    done
+    number hello = 5
+
+}
+stop
+
+
